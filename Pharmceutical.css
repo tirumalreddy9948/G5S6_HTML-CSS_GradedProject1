@@ -1,0 +1,105 @@
+.header h1{
+    top: 0;
+    margin: auto;
+    background-color: rgb(107, 106, 106);
+    text-align: right;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+}
+
+ .footer .container{
+    bottom: 0;
+    background-color: rgb(107, 106, 106);
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    color: white;
+ }
+
+ .container{
+    margin: 0 auto;
+    width: 100%;
+ }
+
+  /* body{
+    border: 2px solid black;
+  } */
+
+.list-element-styling{
+    list-style-type: none;
+}
+.parent-menu{
+    background-color : rgb(175, 175, 175);
+    list-style-type: none;
+    margin: 0%;
+    width: 100%;
+    
+}
+.parent-menu > li{
+    display: inline-block;
+    padding: 1em;           
+}
+
+.parent-menu > li > a {
+   text-decoration: none;
+   color: white;
+   padding: 1em;
+   font-size: 30px;
+}
+
+.parent-menu > li > a:hover {
+  background-color: black;
+  padding: 10px;
+}
+
+.item-containing-child-menu{
+    position:relative;
+}
+.child-menu,.child-menu-link3{
+    background-color : lightgrey;
+    list-style-type: none;
+    display: none;            
+    position:absolute;
+    top: 60px;
+    left: 25px;
+    white-space: nowrap;
+    
+   
+}
+
+.item-containing-child-menu:hover .child-menu{
+   display: block;
+}
+
+.child-menu > li > a {
+   text-decoration: none;
+   color: blue;
+   
+   font-size: 25px;
+}
+
+
+.item-containing-child-menu-link3{
+    position:relative;
+    
+}
+
+
+.child-menu-link3 > li > a {
+   text-decoration: none;
+   color: blue;
+
+   font-size: 25px;
+}
+
+.item-containing-child-menu-link3:hover .child-menu-link3{
+   display: block;
+} 
+
+nav{
+    position: sticky;
+    top: 0%;
+    }

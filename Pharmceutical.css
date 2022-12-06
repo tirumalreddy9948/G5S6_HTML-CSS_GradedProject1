@@ -1,8 +1,7 @@
-.header h1{
+.header{
     top: 0;
     margin: auto;
     background-color: rgb(107, 106, 106);
-    text-align: right;
     padding: 20px;
     color: white;
     text-align: center;
@@ -17,12 +16,10 @@
     position: fixed;
     text-align: center;
     color: white;
- }
-
- .container{
-    margin: 0 auto;
     width: 100%;
  }
+
+
 
   /* body{
     border: 2px solid black;
@@ -30,6 +27,7 @@
 
 .list-element-styling{
     list-style-type: none;
+   
 }
 .parent-menu{
     background-color : rgb(175, 175, 175);
@@ -99,7 +97,117 @@
    display: block;
 } 
 
+.child-menu li:not(:last-child){
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    padding-right: 15px;
+  
+ }
+
+ .child-menu-link3 li:not(:last-child){
+    margin-bottom: 20px;  
+    margin-top: 20px;  
+    padding-right: 15px; 
+ }
+
 nav{
     position: sticky;
     top: 0%;
+    }
+
+    .background-animated-image{
+   background-image: url("./Images/Animation/ani1.jpg");  
+   border: 2px solid steelblue; 
+   height: 50%;
+   width: 100%;  
+   position: absolute;
+   margin : auto;
+   animation-name : image-slide;  
+   animation-duration: 5s;
+   animation-iteration-count : infinite ;
+   background-size: 100%; 
+}  
+  @keyframes image-slide {
+   
+   0%{
+    
+    background-image: url("./Images/Animation/ani1.jpg");
+   }
+    25%{
+       
+        background-image: url("./Images/Animation/ani2.png");
+    }
+    50%{
+        
+        background-image: url("./Images/Animation/ani3.jpg");
+    }
+    75%{
+      
+        background-image: url("./Images/Animation/ani4.jpg");
+    }
+    100%{
+       
+        background-image: url("./Images/Animation/ani4.jpg");
+    }
+
+}  
+
+.form-page-layout{
+    width: 60%;
+    height: 100%;
+    border: none;
+    box-shadow: 10px 10px 10px 10px grey;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 0 auto;
+    padding: 40px;
+    overflow: hidden;
+    overflow-y:scroll;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background: #f1f1f1;
+ 
+
+}
+
+.form-elements-layout{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid white; */
+    /* margin-top: 50px;
+    margin-left: 50px; */
+  
+}
+
+.textfield{
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 13px;
+    background: none;
+    border-bottom: 1px solid silver;
+    
+}
+ .lab-image-layout{
+   
+    padding-left: 5%;
+    width: 50%;
+
+}  
+
+button{
+ 
+    background-color: rgb(175, 100, 240);
+    color: white;
+    margin: 20px;
+    height: 30px;   
+    width: 80px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: none;
+  
+    }
+
+    .button-style{
+        margin-left: 35%;
     }

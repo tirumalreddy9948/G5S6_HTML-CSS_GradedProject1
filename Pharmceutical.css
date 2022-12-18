@@ -120,7 +120,7 @@ nav {
 }
 
 .background-animated-image {
-    background-image: url("./Images/Animation/ani1.jpg");
+    background-image: url("https://github.com/tirumalreddy9948/G5S6_HTML-CSS_GradedProject1/tree/master/Images/Animation/ani1.jpg");
     border: 2px solid steelblue;
     height: 80%;
     width: 100%;
@@ -139,27 +139,27 @@ nav {
 
     0% {
 
-        background-image: url("./Images/Animation/ani1.jpg");
+        background-image: url("https://github.com/tirumalreddy9948/G5S6_HTML-CSS_GradedProject1/tree/master/Images/Animation/ani1.jpg");
     }
 
     25% {
 
-        background-image: url("./Images/Animation/ani2.png");
+        background-image: url("https://github.com/tirumalreddy9948/G5S6_HTML-CSS_GradedProject1/tree/master/Images/Animation/ani2.png");
     }
 
     50% {
 
-        background-image: url("./Images/Animation/ani3.jpg");
+        background-image: url("https://github.com/tirumalreddy9948/G5S6_HTML-CSS_GradedProject1/tree/master/Images/Animation/ani3.jpg");
     }
 
     75% {
 
-        background-image: url("./Images/Animation/ani4.jpg");
+        background-image: url("https://github.com/tirumalreddy9948/G5S6_HTML-CSS_GradedProject1/tree/master/Images/Animation/ani4.jpg");
     }
 
     100% {
 
-        background-image: url("./Images/Animation/ani4.jpg");
+        background-image: url("https://github.com/tirumalreddy9948/G5S6_HTML-CSS_GradedProject1/tree/master/Images/Animation/ani4.jpg");
     }
 
 }
